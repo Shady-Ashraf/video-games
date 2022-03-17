@@ -16,6 +16,8 @@ import { SearchBarComponent } from './components/search-bar/search-bar.component
 import { HomeComponent } from './components/home/home.component'
 import { HttpHeadersIntercaptor } from './components/interceptor/http-headers.interceptor';
 import { HttpErrorsInterceptor } from './components/interceptor/http-errors.interceptor';
+import { DetailsComponent } from './components/details/details.component';
+import { GameTabsComponent } from './game-tabs/game-tabs.component';
 
 
 @NgModule({
@@ -23,6 +25,9 @@ import { HttpErrorsInterceptor } from './components/interceptor/http-errors.inte
     AppComponent,
     HomeComponent,
     SearchBarComponent,
+    DetailsComponent,
+    GameTabsComponent
+    
   ],
   imports: [
     BrowserModule,
@@ -34,7 +39,8 @@ import { HttpErrorsInterceptor } from './components/interceptor/http-errors.inte
     MatTabsModule,
     MatIconModule,
     MatFormFieldModule,
-    MatSelectModule
+    MatSelectModule,
+    
 
     
     
